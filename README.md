@@ -1,4 +1,4 @@
-# PROJE HAKKINDA
+# Proje Hakkında
 
 ## OpenCV ile Görüntü ve Video İşleme, Makine Öğrenmesi ve Proje Uygulamaları
 
@@ -16,14 +16,14 @@ Bu depo, OpenCV ve Python kullanarak temel ve ileri seviye görüntü işleme, v
 
 ## 📚 İçerik ve Klasör Yapısı
 
-- **01-Temeller/**: OpenCV kurulumu, temel veri yapıları, ilk programlar
-- **02-Resim-Isleme/**: Geometrik dönüşümler, filtreleme, morfolojik işlemler, histogram, kontrast, gürültü azaltma, kenar algılama, uygulamalı alıştırmalar
-- **03-Video-Isleme/**: Video okuma/yazma, frame işleme, hareket algılama, nesne takibi, arka plan çıkarma, video analizi, uygulamalı alıştırmalar
-- **04-Nesne-Tespiti/**: Klasik ve DNN tabanlı nesne tespiti, yüz tespiti, şekil tespiti, renk tabanlı tespit, QR/barcode okuma, uygulamalı alıştırmalar
-- **05-Makine-Ogrenmesi/**: Temel ML kavramları, k-NN, SVM, ANN, karar ağaçları, ensemble yöntemler, derin öğrenme, uygulamalı alıştırmalar
-- **06-Ileri-Seviye/**: (Geliştirilecek) Gelişmiş teknikler ve özel uygulamalar
-- **07-Projeler/**: Gerçek dünya projeleri (yüz tanıma, plaka tanıma, hareket algılama, vb.)
-- **assets/**, **examples/**, **utils/**: Destekleyici dosyalar, örnekler ve yardımcı fonksiyonlar
+- **[01-Temeller/](https://github.com/erent8/opencv-doc/tree/main/01-Temeller)**: OpenCV kurulumu, temel veri yapıları, ilk programlar
+- **[02-Resim-Isleme/](https://github.com/erent8/opencv-doc/tree/main/02-Resim-Isleme)**: Geometrik dönüşümler, filtreleme, morfolojik işlemler, histogram, kontrast, gürültü azaltma, kenar algılama, uygulamalı alıştırmalar
+- **[03-Video-Isleme/](https://github.com/erent8/opencv-doc/tree/main/03-Video-Isleme)**: Video okuma/yazma, frame işleme, hareket algılama, nesne takibi, arka plan çıkarma, video analizi, uygulamalı alıştırmalar
+- **[04-Nesne-Tespiti/](https://github.com/erent8/opencv-doc/tree/main/04-Nesne-Tespiti)**: Klasik ve DNN tabanlı nesne tespiti, yüz tespiti, şekil tespiti, renk tabanlı tespit, QR/barcode okuma, uygulamalı alıştırmalar
+- **[05-Makine-Ogrenmesi/](https://github.com/erent8/opencv-doc/tree/main/05-Makine-Ogrenmesi)**: Temel ML kavramları, k-NN, SVM, ANN, karar ağaçları, ensemble yöntemler, derin öğrenme, uygulamalı alıştırmalar
+- **[06-Ileri-Seviye/](https://github.com/erent8/opencv-doc/tree/main/06-Ileri-Seviye)**: (Geliştirilecek) Gelişmiş teknikler ve özel uygulamalar
+- **[07-Projeler/](https://github.com/erent8/opencv-doc/tree/main/07-Projeler)**: Gerçek dünya projeleri (yüz tanıma, plaka tanıma, hareket algılama, vb.)
+- **[assets/](https://github.com/erent8/opencv-doc/tree/main/assets)**, **[examples/](https://github.com/erent8/opencv-doc/tree/main/examples)**, **[utils/](https://github.com/erent8/opencv-doc/tree/main/utils)**: Destekleyici dosyalar, örnekler ve yardımcı fonksiyonlar
 
 ---
 
@@ -39,9 +39,13 @@ pip install -r requirements.txt
 ```
 Ekstra: `pip install tensorflow keras mediapipe dlib pytesseract pillow imutils requests tqdm`
 
+**Gereksinim Dosyaları:**
+- [requirements.txt](https://github.com/erent8/opencv-doc/blob/main/requirements.txt)
+- [requirements-minimal.txt](https://github.com/erent8/opencv-doc/blob/main/requirements-minimal.txt)
+
 ### 3. Model Dosyaları
 - Büyük model dosyaları (ör. YOLOv3 weights) otomatik indirilir veya `models/` klasörüne manuel eklenir.
-- `utils/model_downloader.py` ile otomatik indirme yapılabilir.
+- [`utils/model_downloader.py`](https://github.com/erent8/opencv-doc/blob/main/utils/model_downloader.py) ile otomatik indirme yapılabilir.
 
 ### 4. Çalıştırma
 Her klasördeki Python dosyalarını doğrudan çalıştırabilirsiniz:
@@ -51,6 +55,11 @@ python 02-Resim-Isleme/01-geometrik-transformasyonlar.py
 python 05-Makine-Ogrenmesi/06-alistirmalar/alistirma-2.py
 python 07-Projeler/01-yuz-tanima-sistemi.py
 ```
+
+**Örnek Dosyalar:**
+- [İlk Program](https://github.com/erent8/opencv-doc/blob/main/01-Temeller/02-ilk-program.py)
+- [Geometrik Dönüşümler](https://github.com/erent8/opencv-doc/blob/main/02-Resim-Isleme/01-geometrik-transformasyonlar.py)
+- [Yüz Tanıma Sistemi](https://github.com/erent8/opencv-doc/blob/main/07-Projeler/01-yuz-tanima-sistemi.py)
 
 ---
 
@@ -97,22 +106,25 @@ python 07-Projeler/01-yuz-tanima-sistemi.py
 ---
 
 ## 👨‍💻 Katkı ve Geliştirme
-- Pull request ve issue açarak katkıda bulunabilirsiniz
+- [Pull request](https://github.com/erent8/opencv-doc/pulls) ve [issue](https://github.com/erent8/opencv-doc/issues) açarak katkıda bulunabilirsiniz
 - Yeni alıştırma, proje veya örnek ekleyebilirsiniz
 - Kodunuzu Türkçe açıklamalarla ve temiz şekilde yazmaya özen gösterin
 - Büyük model dosyalarını GitHub'a yüklemeyin, otomatik indirme sistemini kullanın
+- [Fork](https://github.com/erent8/opencv-doc/fork) yaparak kendi geliştirmelerinizi yapabilirsiniz
 
 ---
 
 ## 📄 Lisans
-MIT Lisansı altında sunulmuştur. Detaylar için LICENSE dosyasına bakınız.
+MIT Lisansı altında sunulmuştur. Detaylar için [LICENSE](https://github.com/erent8/opencv-doc/blob/main/LICENSE) dosyasına bakınız.
 
 ---
 
 ## 📞 İletişim ve Topluluk
-- Soru, öneri ve katkılarınız için GitHub Issues bölümünü kullanabilirsiniz
+- Soru, öneri ve katkılarınız için [GitHub Issues](https://github.com/erent8/opencv-doc/issues) bölümünü kullanabilirsiniz
 - E-posta: erenterzi@protonmail.com
-- X: therenn8
+- X: [@therenn8](https://x.com/therenn8)
+- GitHub: [@erent8](https://github.com/erent8)
+- Proje Linki: [https://github.com/erent8/opencv-doc](https://github.com/erent8/opencv-doc)
 
 ---
 
