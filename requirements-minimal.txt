@@ -1,0 +1,21 @@
+# OpenCV Dokümantasyon Projesi - Minimal Gereksinimler
+# =====================================================
+# Sadece temel paketler - hızlı kurulum için
+# 
+# Kurulum: pip install -r requirements-minimal.txt
+
+# Temel OpenCV
+opencv-python>=4.5.0
+opencv-contrib-python>=4.5.0
+
+# Temel veri işleme
+numpy>=1.19.0
+
+# Temel görselleştirme
+matplotlib>=3.3.0
+
+# Jupyter (opsiyonel ama önerilen)
+jupyter>=1.0.0
+
+# Progress bar
+tqdm>=4.60.0

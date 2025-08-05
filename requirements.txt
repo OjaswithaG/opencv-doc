@@ -1,0 +1,182 @@
+# OpenCV Dokümantasyon Projesi - Gerekli Python Paketleri
+# ======================================================
+# Bu dosya, OpenCV öğrenme dokümantasyonu için gerekli tüm Python paketlerini içerir.
+# 
+# Kurulum: pip install -r requirements.txt
+# 
+# Son güncelleme: 2024-08
+# Python sürümü: 3.7+
+
+# ===========================
+# TEMEL OPENCV PAKETLERİ
+# ===========================
+
+# OpenCV - Temel görüntü işleme kütüphanesi
+opencv-python>=4.5.0
+# OpenCV katkı modülleri (SIFT, SURF, daha fazla algoritma)
+opencv-contrib-python>=4.5.0
+
+# ===========================
+# VERİ İŞLEME VE MATEMATİK
+# ===========================
+
+# NumPy - Temel array işlemleri (OpenCV'nin temeli)
+numpy>=1.19.0
+# SciPy - Bilimsel hesaplamalar
+scipy>=1.6.0
+# Pandas - Veri analizi (istatistikler için)
+pandas>=1.2.0
+
+# ===========================
+# GÖRSELLEŞTİRME
+# ===========================
+
+# Matplotlib - Temel plotting ve görselleştirme
+matplotlib>=3.3.0
+# Seaborn - Gelişmiş istatistiksel görselleştirme
+seaborn>=0.11.0
+# Plotly - İnteraktif grafikler
+plotly>=5.0.0
+
+# ===========================
+# EK GÖRÜNTÜ İŞLEME
+# ===========================
+
+# Scikit-image - Ek görüntü işleme algoritmaları
+scikit-image>=0.18.0
+# PIL/Pillow - Python Imaging Library
+Pillow>=8.0.0
+# ImageIO - Çeşitli görüntü formatları okuma/yazma
+imageio>=2.9.0
+
+# ===========================
+# MAKİNE ÖĞRENMESİ (OPSİYONEL)
+# ===========================
+
+# Scikit-learn - Genel makine öğrenmesi
+scikit-learn>=0.24.0
+# TensorFlow - Derin öğrenme (opsiyonel, büyük boyut)
+# tensorflow>=2.6.0
+# PyTorch - Alternatif derin öğrenme (opsiyonel)
+# torch>=1.9.0
+# torchvision>=0.10.0
+
+# ===========================
+# JUPYTER VE İNTERAKTİF ÇALIŞMA
+# ===========================
+
+# Jupyter - Notebook ortamı
+jupyter>=1.0.0
+# JupyterLab - Modern Jupyter arayüzü
+jupyterlab>=3.0.0
+# IPython - Gelişmiş Python shell
+ipython>=7.20.0
+# Jupyter widgets - İnteraktif bileşenler
+ipywidgets>=7.6.0
+
+# ===========================
+# YARDIMCI ARAÇLAR
+# ===========================
+
+# Tqdm - Progress bar gösterimi
+tqdm>=4.60.0
+# Requests - HTTP istekleri (web'den resim indirme için)
+requests>=2.25.0
+# PathLib - Dosya yolu işlemleri (Python 3.4+ built-in ama eski versiyonlar için)
+pathlib2>=2.3.0; python_version<"3.4"
+
+# ===========================
+# GELİŞTİRME ARAÇLARI (OPSİYONEL)
+# ===========================
+
+# Testing
+pytest>=6.2.0
+# Code formatting
+black>=21.0.0
+# Linting
+flake8>=3.8.0
+# Type checking
+mypy>=0.812
+
+# ===========================
+# PERFORMANS VE HIZLANDIRMA
+# ===========================
+
+# Numba - JIT compilation (hesaplamaları hızlandırır)
+numba>=0.53.0
+# OpenCV GPU desteği için (sadece CUDA kartlar için)
+# opencv-contrib-python-headless>=4.5.0
+
+# ===========================
+# DOSYA İŞLEMLERİ
+# ===========================
+
+# PyYAML - YAML dosya okuma/yazma
+PyYAML>=5.4.0
+# JSON işlemleri (built-in ama ek özellikler için)
+# jsonschema>=3.2.0
+
+# ===========================
+# WEB VE API (OPSİYONEL)
+# ===========================
+
+# Flask - Web uygulaması geliştirme
+# flask>=2.0.0
+# FastAPI - Modern API geliştirme
+# fastapi>=0.65.0
+# Streamlit - Hızlı web uygulaması
+# streamlit>=0.80.0
+
+# ===========================
+# VERİTABANI (OPSİYONEL)
+# ===========================
+
+# SQLite işlemleri (built-in ama ek özellikler için)
+# sqlite3
+
+# ===========================
+# SÜRÜM BİLGİLERİ
+# ===========================
+# Bu paket sürümleri test edilmiş ve uyumludur.
+# Daha yeni sürümler de çalışabilir ama test edilmemiştir.
+# 
+# Minimum Python sürümü: 3.7
+# Önerilen Python sürümü: 3.8+
+# 
+# ===========================
+# PLATFORM ÖZELLİKLERİ
+# ===========================
+
+# Windows için ek paketler
+# pywin32>=227; sys_platform=="win32"
+
+# macOS için ek paketler
+# objc-framework-Cocoa>=8.0; sys_platform=="darwin"
+
+# Linux için ek paketler
+# python3-tk>=0.1.0; sys_platform=="linux"
+
+# ===========================
+# KURULUM NOTLARI
+# ===========================
+#
+# 1. Temel kurulum:
+#    pip install -r requirements.txt
+#
+# 2. Sadece temel paketler:
+#    pip install opencv-python numpy matplotlib jupyter
+#
+# 3. GPU desteği ile:
+#    pip install opencv-contrib-python[gpu]
+#
+# 4. Sanal ortam kullanımı önerilir:
+#    python -m venv opencv_env
+#    source opencv_env/bin/activate  # Linux/macOS
+#    opencv_env\Scripts\activate     # Windows
+#    pip install -r requirements.txt
+#
+# 5. Jupyter notebook kurulumu:
+#    pip install jupyter
+#    jupyter notebook
+#
+# ===========================
