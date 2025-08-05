@@ -2,7 +2,7 @@
 
 ## OpenCV ile Görüntü ve Video İşleme, Makine Öğrenmesi ve Proje Uygulamaları
 
-Bu depo, OpenCV ve Python kullanarak temel ve ileri seviye görüntü işleme, video işleme, makine öğrenmesi ve gerçek dünya projeleri geliştirmek isteyenler için kapsamlı bir eğitim ve uygulama kaynağıdır.
+OpenCV ve Python kullanarak temel ve ileri seviye görüntü işleme, video işleme, makine öğrenmesi ve gerçek dünya projeleri geliştirmek isteyenler için kapsamlı bir eğitim ve uygulama kaynağıdır.
 
 ---
 
