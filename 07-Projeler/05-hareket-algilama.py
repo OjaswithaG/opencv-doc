@@ -5,7 +5,7 @@ OpenCV ile Hareket Algılama ve Güvenlik Projesi
 Bu proje, hareket algılama tekniklerini kullanarak
 güvenlik sistemi geliştirir.
 
-Yazar: OpenCV Türkiye Topluluğu
+Yazar: Eren Terzi
 Tarih: 2025
 """
 
@@ -490,4 +490,5 @@ if __name__ == "__main__":
     print("  • Gerçek zamanlı izleme")
     print("  • Güvenlik sistemi tasarımı")
     
+
     demo_menu() 
