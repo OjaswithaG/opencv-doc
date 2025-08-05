@@ -5,7 +5,7 @@ OpenCV ile Plaka Tanıma ve OCR Projesi
 Bu proje, araç plakalarını tespit edip tanıma tekniklerini
 kullanarak gerçek zamanlı bir sistem geliştirir.
 
-Yazar: OpenCV Türkiye Topluluğu
+Yazar: Eren Terzi
 Tarih: 2025
 """
 
@@ -480,4 +480,5 @@ if __name__ == "__main__":
     print("  • Gerçek zamanlı video işleme")
     print("  • Performans optimizasyonu")
     
+
     demo_menu() 
