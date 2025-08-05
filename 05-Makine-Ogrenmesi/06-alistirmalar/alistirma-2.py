@@ -5,7 +5,7 @@ OpenCV ile Ensemble Learning Uygulaması
 Bu dosya, ensemble learning yöntemlerini kullanarak görüntü sınıflandırma
 sistemi geliştirmeyi amaçlar.
 
-Yazar: OpenCV Türkiye Topluluğu
+Yazar: Eren Terzi
 Tarih: 2025
 """
 
@@ -233,4 +233,5 @@ if __name__ == "__main__":
     print("  • Cross-Validation Teknikleri")
     print("  • Feature Engineering")
     
+
     demo_menu() 
