@@ -56,11 +56,6 @@ python 05-Makine-Ogrenmesi/06-alistirmalar/alistirma-2.py
 python 07-Projeler/01-yuz-tanima-sistemi.py
 ```
 
-**Örnek Dosyalar:**
-- [İlk Program](https://github.com/erent8/opencv-doc/blob/main/01-Temeller/02-ilk-program.py)
-- [Geometrik Dönüşümler](https://github.com/erent8/opencv-doc/blob/main/02-Resim-Isleme/01-geometrik-transformasyonlar.py)
-- [Yüz Tanıma Sistemi](https://github.com/erent8/opencv-doc/blob/main/07-Projeler/01-yuz-tanima-sistemi.py)
-
 ---
 
 ## 🧩 Bölüm Özeti
