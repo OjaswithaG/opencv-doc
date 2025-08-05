@@ -5,7 +5,7 @@ OpenCV ile Yüz Tanıma ve Duygu Analizi Projesi
 Bu proje, yüz tanıma ve duygu analizi tekniklerini kullanarak
 gerçek zamanlı bir sistem geliştirir.
 
-Yazar: OpenCV Türkiye Topluluğu
+Yazar: Eren Terzi
 Tarih: 2025
 """
 
@@ -469,4 +469,5 @@ if __name__ == "__main__":
     print("  • Gerçek zamanlı video işleme")
     print("  • Model kaydetme/yükleme")
     
+
     demo_menu() 
